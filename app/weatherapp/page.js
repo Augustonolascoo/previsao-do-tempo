@@ -14,7 +14,6 @@ import {
   Legend,
 } from 'chart.js';
 
-// Registrar os componentes que o Chart.js usa
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -86,12 +85,12 @@ export default function WeatherPage() {
 
       {weatherData && (
         <div>
-          {/* Exibe a temperatura atual */}
+          {}
           <h2>Temperatura atual em {weatherData.currentWeather.name}</h2>
           <p>Temperatura: {weatherData.currentWeather.main.temp} °C</p>
           <p>Condição: {weatherData.currentWeather.weather[0].description}</p>
 
-          {/* Exibe a previsão dos próximos dias */}
+          {}
           <h2>Previsão dos próximos dias para {weatherData.currentWeather.name}</h2>
           <Line data={prepareChartData()} />
         </div>
