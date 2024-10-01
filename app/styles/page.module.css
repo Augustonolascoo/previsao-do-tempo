@@ -1,27 +1,25 @@
 /* styles/page.module.css */
 .container {
-    background-color: rgb(144, 253, 253); /* Fundo preto */
-    color: white; /* Texto branco para contraste */
+    background-color: rgb(144, 253, 253); 
+    color: white; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Para ocupar a tela inteira */
+    height: 100vh; 
     padding: 20px;
-    text-align: center; /* Centraliza texto dentro do container */
+    text-align: center;
 }
 
 .title {
-    color: rgb(0, 0, 0); /* Título em roxo */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: rgb(0, 0, 0); 
+    margin-bottom: 20px; 
 }
-
 .paragraph {
-    color: rgb(0, 0, 0); /* Parágrafos em branco */
-    margin: 10px 0; /* Espaçamento vertical entre parágrafos */
+    color: rgb(0, 0, 0); 
+    margin: 10px 0; 
 }
 
 .error {
-    color: red; /* Mensagem de erro em vermelho */
-    margin-top: 10px; /* Espaçamento acima da mensagem de erro */
-}
+    color: red; 
+    margin-top: 10px; 
